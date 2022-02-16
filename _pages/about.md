@@ -19,3 +19,5 @@ My research insterests lie in high-definition map automatic annotation, Imitatio
 
 Currently, I aim to apply deep learning approaches and robotics techniques to automatically create vector maps (e.g., road network map and high-definition map) for autonomous driving system. The key task is detecting the graph of target objects (e.g., road, road boundary, lane centerline, etc) from input images or image sequences.
 
+
+**<span style="color:purple"> Now I am looking for industry or research positions. </span>**
