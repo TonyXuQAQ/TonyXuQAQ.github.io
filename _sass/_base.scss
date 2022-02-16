@@ -66,8 +66,11 @@ blockquote {
 }
 
 @media (min-width: 576px) {
+  .col-3 {
+    max-width: 45%;
+  }
   .profile {
-    width: 30%;
+    width: 40%;
     .address {
       p { display: block; }
     }
@@ -181,6 +184,7 @@ blockquote {
 
 .news table th {
   color: var(--global-text-color);
+  width: 15%;
 }
 
 // Social (bottom)
@@ -376,7 +380,10 @@ footer.sticky-bottom {
     list-style: none;
     padding: 0;
     margin-top: 0;
-
+    .col-sm-2{
+      flex: 0 0 30%;
+      max-width: 30%;
+    }
     li {
       margin-bottom: 1rem;
       .abbr {
