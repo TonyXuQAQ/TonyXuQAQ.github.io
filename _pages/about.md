@@ -2,23 +2,19 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <a href='https://ram-lab.com/'>HKUST RAM Lab</a>
 
 profile:
   align: right
-  image: prof_pic.jpg
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  image: zhxu.png
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hello, this is Zhenhua Xu(许振华), a 4-th year Ph.D. candidate in Computer Science and Engineering (CSE) Department of the Hong Kong University of Science and Technology (HKUST). I am co-supervised by [Prof.Ming Liu](https://facultyprofiles.ust.hk/profiles.php?profile=ming-liu-eelium) and [Prof.Huamin Qu](http://huamin.org/). Before joining HKUST, I received my bachelor degree in Ectronics and Information Engineering from Harbin Institute of Technology.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My research insterests lie in high-definition map automatic annotation, Imitation learing, line-shaped object detection, aerial image understanding, etc. 
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Currently, I aim to apply deep learning approaches and robotics techniques to automatically create vector maps (e.g., road network map and high-definition map) for autonomous driving system. The key task is detecting the graph of target objects (e.g., road, road boundary, lane centerline, etc) from input images or image sequences.
+
