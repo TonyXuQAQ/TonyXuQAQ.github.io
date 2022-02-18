@@ -21,3 +21,5 @@ Currently, I aim to apply deep learning approaches and robotics techniques to au
 
 
 **<span style="color:purple"> Now I am looking for industry or research positions. </span>**
+
+<hr>
