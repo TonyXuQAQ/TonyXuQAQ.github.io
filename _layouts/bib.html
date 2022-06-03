@@ -2,6 +2,24 @@
 ---
 
 <div class="row">
+  {% if entry.bibtex %}
+        <a class="bibtex btn btn-sm z-depth-0" role="button">Bibtex</a>
+    {% endif %}
+
+     ...
+
+    <!-- Hidden abstract block -->
+    {% if entry.abstract %}
+    <div class="abstract hidden">
+      <p>{{ entry.abstract }}</p>
+    </div>
+    {% endif %}
+
+    {% if entry.bibtex %}
+    <div class="bibtex hidden">
+      <p>{% highlight bibtex %}{{ entry.bibtex }}{% endhighlight %}</p>
+    </div>
+    {% endif %}
   <div class="col-sm-2 abbr">
   {% if entry.abbr %}
     <img class="img-fluid z-depth-2 rounded" style="object-fit: contain" src="{{ entry.img }}">
@@ -140,10 +158,11 @@
     {% endif %}
 
     <!-- Hidden bibtex block -->
-    {% if entry.bibtex_show %}
-    <div class="bibtex hidden">
-      {% highlight bibtex %}{{ entry.bibtex }}{% endhighlight %}
-    </div>
-    {% endif %}
+    {% if entry.bibtex_show -%}
+          <!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            {% highlight bibtex %}{{ entry.bibtex | hideCustomBibtex }}{% endhighlight %}
+          </div>
+          {%- endif %}
   </div>
 </div>
