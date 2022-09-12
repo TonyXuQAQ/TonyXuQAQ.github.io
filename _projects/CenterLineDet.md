@@ -19,7 +19,7 @@ More details of our implementation and extra visualization are provided in our [
 Coming soon...
 
 ## Demo video
-<p align="center"><iframe width="560" height="315" src="https://youtu.be/r5cbAkH5JrU" frameborder="0" allowfullscreen></iframe></p>
+<p align="center"><iframe width="560" height="315" src="https://www.youtube.com/embed/r5cbAkH5JrU" frameborder="0" allowfullscreen></iframe></p>
 
 ## System diagram
 <p align="center">
