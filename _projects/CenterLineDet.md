@@ -26,10 +26,7 @@ Coming soon...
   <img style="width: 100%" src="../../assets/img/centerlinedet_diagram.png" />
 </p>
 
-## Comparison results
-<p align="center">
-  <img style="width: 100%" src="../../assets/img/centerlinedet_results.png" />
-</p>
+
 
 ## Status
 Submitted to ICRA 2023. Under review.
