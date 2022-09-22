@@ -10,7 +10,7 @@ The graph structure of road networks is critical for downstream tasks of autonom
 ## Paper
 [pdf](../../assets/pdf/2022_RAL_RNGDetPlusPlus.pdf)
 
-<!-- [arxiv access](https://arxiv.org/abs/2209.07734) -->
+[arxiv access](https://arxiv.org/abs/2209.10150)
 
 
 ## Supplymentary document
