@@ -17,7 +17,7 @@ Hello, this is Zhenhua Xu(许振华), a final year Ph.D. candidate in Computer S
 
 My research insterests lie in high-definition map automatic generation, image-to-graph detection, imitation learing, autonomous driving, robotics, GIS, aerial image understanding, etc. 
 
-Currently, I aim to apply deep learning approaches and robotics techniques to automatically generate vector maps (e.g., road network map and high-definition map) for autonomous driving systems. The key task is detecting the graph of target objects (e.g., road, road boundary, lane centerline, etc) from input images or image sequences.
+Currently, I aim to apply deep learning approaches and robotics techniques to automatically generate vector maps (e.g., standard-definition map and high-definition map) for autonomous driving systems. The key task is detecting the graph of target objects (e.g., road, road boundary, lane centerline, etc) from input images or image sequences.
 
 
 **<span style="color:purple"> Now I am looking for postdoc positions on robotics/autonomous driving/GIS/aerial image understanding/computer vision/etc. </span>**

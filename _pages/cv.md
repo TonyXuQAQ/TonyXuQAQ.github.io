@@ -7,5 +7,5 @@ nav: true
 display_categories:
 horizontal: false
 ---
-[CV](/assets/pdf/Zhenhux_XU_CV_Oct_11.pdf)
+[CV](/assets/pdf/Zhenhux_XU_CV.pdf)
 
