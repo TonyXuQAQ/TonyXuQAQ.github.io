@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Curriculum Vitae
-permalink: /assets/pdf/zhenhua_cv_academic.pdf
+permalink: /assets/pdf/Zhenhux_XU_CV.pdf
 description: Link to my CV.
 nav: true
 display_categories:
