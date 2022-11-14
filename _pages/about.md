@@ -13,7 +13,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false
 ---
 
-Hello, this is Zhenhua Xu(许振华), a final year Ph.D. candidate in Computer Science and Engineering (CSE) Department of the Hong Kong University of Science and Technology (HKUST). I am co-supervised by [Prof.Ming Liu](https://facultyprofiles.ust.hk/profiles.php?profile=ming-liu-eelium) and [Prof.Huamin Qu](http://huamin.org/). Before joining HKUST, I received my bachelor degree in Ectronics and Information Engineering from Harbin Institute of Technology.
+Hello, this is Zhenhua Xu(许振华), a final year Ph.D. candidate in Computer Science and Engineering (CSE) Department of the Hong Kong University of Science and Technology (HKUST). I am co-supervised by [Prof.Ming Liu](https://facultyprofiles.ust.hk/profiles.php?profile=ming-liu-eelium) and [Prof.Huamin Qu](http://huamin.org/). Before joining HKUST, I received my bachelor degree in Ectronics and Information Engineering from Harbin Institute of Technology, supervised by [Prof. Yun Zhang](https://www.researchgate.net/profile/Yun-Zhang-72).
 
 My research insterests lie in high-definition map automatic generation, image-to-graph detection, imitation learing, autonomous driving, robotics, GIS, aerial image understanding, etc. 
 
