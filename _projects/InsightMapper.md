@@ -12,7 +12,7 @@ Vectorized high-definition (HD) maps contain detailed information about surround
 Comming soon...
 
 ### Code and data
-Comming soon...
+Comming soon... For latest update, please refer to our [github paper](https://github.com/TonyXuQAQ/InsightMapper/tree/main). 
 
 
 ### Contact
