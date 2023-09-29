@@ -1,6 +1,6 @@
 ---
 layout: project_page
-permalink: /projects/DriveGPT4
+permalink: /projects/DriveGPT4/
 
 projectname: DriveGPT4
 title: Interpretable End-to-end Autonomous Driving via Large Language Model
