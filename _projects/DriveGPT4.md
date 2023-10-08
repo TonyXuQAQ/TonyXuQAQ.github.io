@@ -14,7 +14,7 @@ author4: Zhen Zhao
 author4link: http://zhaozhen.me/
 author5: Yong Guo
 author5link: https://www.guoyongcs.com/
-author6: Kenneth K.Y. Wong
+author6: Kwan-Yee. K. Wong
 author6link: https://i.cs.hku.hk/~kykwong/
 author7: Zhenguo Li
 author7link: https://scholar.google.com/citations?user=XboZC1AAAAAJ&hl=en
@@ -90,6 +90,8 @@ For any questions, please send email to zhxuv at hku dot hk。
 ```
 @article{xu2023drivegpt4,
   title={DriveGPT4: Interpretable End-to-end Autonomous Driving via Large Language Model},
+  author={Xu, Zhenhua and Zhang, Yujia and Xie, Enze and Zhao, Zhen and Guo, Yong and Wong, Kenneth KY and Li, Zhenguo and Zhao, Hengshuang},
+  journal={arXiv preprint arXiv:2310.01412},
   year={2023}
 }
 ```
