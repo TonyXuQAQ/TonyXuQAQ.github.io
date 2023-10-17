@@ -28,7 +28,7 @@ affiliations3:
     Huawei Noah's Ark Lab
 affiliations4:
     University of Sydney 
-paper: ../../assets/pdf/ICLR_2024_DriveGPT4.pdf
+paper: ../../assets/pdf/DriveGPT4.pdf
 ---
 
 <div class="columns is-centered has-text-centered">
