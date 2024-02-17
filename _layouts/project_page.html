@@ -89,6 +89,18 @@
                 </a>
               </span>
               {% endif %}
+              <!-- Arxiv Link. -->
+              {% if page.arxiv %}
+              <span class="link-block">
+                <a href="{{ page.arxiv }}"
+                   class="external-link button is-normal is-rounded is-dark">
+                   <span class="icon">
+                    <i class="fas fa-file"></i>
+                </span>
+                  <span>Arxiv</span>
+                </a>
+              </span>
+              {% endif %}
               <!-- Video Link. -->
               {% if page.video %}
               <span class="link-block">
@@ -102,17 +114,18 @@
               </span>
               {% endif %}
               <!-- Code Link. -->
-              {% if page.code %}
+              {% if page.(code) %}
               <span class="link-block">
                 <a href="{{ page.code }}"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fab fa-github"></i>
                   </span>
-                  <span>Code</span>
+                  <span>Code (Soon)</span>
                   </a>
               </span>
               {% endif %}
+              
               <!-- Dataset Link. -->
               {% if page.data %}
               <span class="link-block">
@@ -121,7 +134,7 @@
                   <span class="icon">
                       <i class="fas fa-database"></i>
                   </span>
-                  <span>Data</span>
+                  <span>Model (Soon)</span>
                 </a>
               </span>
               {% endif %}
