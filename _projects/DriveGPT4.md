@@ -59,20 +59,12 @@ These advanced capabilities are achieved through the utilization of a bespoke vi
 ---
 
 
-## Demo Video
-<p align="center"><iframe width="560" height="315" src="https://www.youtube.com/embed/CPoskBNjHlk" frameborder="0" allowfullscreen></iframe></p>
-
-<<<<<<< HEAD
-## Demo figures
-=======
-
 
 <div class="columns is-centered has-text-centered">
     <div class="column is-four-fifths">
         <h2>Demo Figures</h2>
     </div>
 </div>
->>>>>>> 51787742790a13bd760f9c497b7b7621568c68a2
 We provide some demos for DriveGPT4 generated conversations.
 
 **BDD-X testing set:**
