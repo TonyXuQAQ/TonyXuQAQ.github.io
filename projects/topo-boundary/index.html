@@ -11,7 +11,7 @@
   Zhenhua  Xu
 
 
-  | blog
+  | Topo-boundary: A Benchmark Dataset on Topological Road-boundary Detection Using Aerial Images for Autonomous Driving
 
 </title>
 <meta name="description" content="A beautiful, simple, clean, and responsive Jekyll theme for academics">
@@ -36,7 +36,7 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22></text></svg>">
 
 <link rel="stylesheet" href="/assets/css/main.css">
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/projects/topo-boundary/">
 
 <!-- JQuery -->
 <!-- jQuery -->
@@ -111,8 +111,6 @@
           
           
           
-          
-          
           <li class="nav-item ">
               <a class="nav-link" href="/assets/pdf/Zhenhua_XU_CV.pdf">
                 Curriculum Vitae
@@ -135,8 +133,8 @@
           
           
           
-            <div class = "toggle-container">
-              <a id = "light-toggle">
+            <div class="toggle-container">
+              <a id="light-toggle">
                   <i class="fas fa-moon"></i>
                   <i class="fas fa-sun"></i>
               </a>
@@ -155,29 +153,71 @@
     <div class="container mt-5">
       <div class="post">
 
-  <div class="header-bar">
-    <h1></h1>
-    <h2>a simple whitespace theme for academics</h2>
-  </div>
+  <header class="post-header">
+    <h1 class="post-title">Topo-boundary: A Benchmark Dataset on Topological Road-boundary Detection Using Aerial Images for Autonomous Driving</h1>
+    <p class="post-description">Authors: Zhenhua Xu, Yuxiang Sun, Ming Liu</p>
+  </header>
 
+  <article>
+    <p>This paper is accepted by <em>IEEE Robotics and Automation Letters(RA-L)</em> and <em>The IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) 2021</em>, which is available at<a href="https://arxiv.org/abs/2103.17119" target="_blank" rel="noopener noreferrer">arxiv</a>,<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=9488209" target="_blank" rel="noopener noreferrer">IEEE</a>.</p>
 
-  <ul class="post-list">
-    
-  </ul>
+<h2 id="abstract">Abstract</h2>
+<p>Road-boundary detection is important for autonomous driving. For example, it can be used to constrain vehicles running on road areas, which ensures driving safety. Compared with online road-boundary detection using on-vehicle cameras/Lidars, offline detection using aerial images could alleviate the severe occlusion issue. Moreover, the offline detection results can be directly used to annotate high-definition (HD) maps. In recent years, deep-learning technologies have been used in offline detection. But there is still lacking a publicly available dataset for this task, which hinders the research progress in this area. So in this paper, we propose a new benchmark dataset, named <em>Topo-boundary</em>, for offline topological road-boundary detection. The dataset contains 25,295 1000*1000-sized 4-channel aerial images. Each image is provided with 8 training labels for different sub-tasks. We also design a new entropy-based metric for connectivity evaluation, which could better handle noises or outliers. We implement and evaluate 3 segmentation-based baselines and 5 graph-based baselines using the dataset. We also propose a new imitation-learning-based baseline which is enhanced from our previous work. The superiority of our enhancement is demonstrated from the comparison.</p>
 
-  
+<h3 id="dataset-description">Dataset description</h3>
 
+<p>This dataset is for topological road-boundary detection in aerial images for autonomous driving purposes. We provide 25,295 high-resolutin aerial images and each image have multiple labels for different learining tasks. We also provide 9 baseline models.</p>
+
+<p>This dataset is based on the GIS database <a href="https://github.com/CityOfNewYork/nyc-planimetrics/blob/master/Capture_Rules.md" target="_blank" rel="noopener noreferrer">NYC Planimetric Database</a>.</p>
+
+<!-- ![](https://github.com/TonyXuQAQ/Topo-boundary/blob/master/dataset/pic.png) -->
+
+<h3 id="supplementary">Supplementary</h3>
+<p><a href="../../assets/pdf/topoboundary_supplementary.pdf">Supplementary document</a> provides more details about the evaluation metrics and data structure.</p>
+
+<h3 id="code-and-data">Code and data</h3>
+<p>Please check our <a href="https://github.com/TonyXuQAQ/Topo-boundary" target="_blank" rel="noopener noreferrer">github repo</a> and follow the steps.</p>
+
+<h3 id="contact">Contact</h3>
+<p>For any questions, please send email to zxubg at connect dot ust dot hk.</p>
+
+<h3 id="citation">Citation</h3>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@article{xu2021topo,
+  title={Topo-boundary: A benchmark dataset on topological road-boundary detection using aerial images for autonomous driving},
+  author={Xu, Zhenhua and Sun, Yuxiang and Liu, Ming},
+  journal={IEEE Robotics and Automation Letters},
+  volume={6},
+  number={4},
+  pages={7248--7255},
+  year={2021},
+  publisher={IEEE}
+}
+
+@article{xu2021icurb,
+  title={iCurb: Imitation Learning-Based Detection of Road Curbs Using Aerial Images for Autonomous Driving},
+  author={Xu, Zhenhua and Sun, Yuxiang and Liu, Ming},
+  journal={IEEE Robotics and Automation Letters},
+  volume={6},
+  number={2},
+  pages={1097--1104},
+  year={2021},
+  publisher={IEEE}
+}
+</code></pre></div></div>
+
+  </article>
 
 </div>
+
     </div>
-    <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=000000&w=300&t=tt&d=6uR2Jt57UT2a72ykovCNYMSNV-0LO0HGhDpScfdqKQY&co=ffffff&ct=606060'></script>
+    <script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?cl=000000&amp;w=300&amp;t=tt&amp;d=6uR2Jt57UT2a72ykovCNYMSNV-0LO0HGhDpScfdqKQY&amp;co=ffffff&amp;ct=606060"></script>
 
     <!-- Footer -->
 
     
 <footer class="fixed-bottom">
   <div class="container mt-0">
-    &copy; Copyright 2024 Zhenhua  Xu.
+    © Copyright 2024 Zhenhua  Xu.
     Last updated on Feb/10/2024.
 
     

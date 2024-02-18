@@ -11,7 +11,7 @@
   Zhenhua  Xu
 
 
-  | blog
+  | CenterLineDet: CenterLine Graph Detection for Road Lanes with Vehicle-mounted Sensors by Transformer for HD Map Generation
 
 </title>
 <meta name="description" content="A beautiful, simple, clean, and responsive Jekyll theme for academics">
@@ -36,7 +36,7 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22></text></svg>">
 
 <link rel="stylesheet" href="/assets/css/main.css">
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/projects/CenterLineDet/">
 
 <!-- JQuery -->
 <!-- jQuery -->
@@ -111,8 +111,6 @@
           
           
           
-          
-          
           <li class="nav-item ">
               <a class="nav-link" href="/assets/pdf/Zhenhua_XU_CV.pdf">
                 Curriculum Vitae
@@ -135,8 +133,8 @@
           
           
           
-            <div class = "toggle-container">
-              <a id = "light-toggle">
+            <div class="toggle-container">
+              <a id="light-toggle">
                   <i class="fas fa-moon"></i>
                   <i class="fas fa-sun"></i>
               </a>
@@ -155,29 +153,51 @@
     <div class="container mt-5">
       <div class="post">
 
-  <div class="header-bar">
-    <h1></h1>
-    <h2>a simple whitespace theme for academics</h2>
-  </div>
+  <header class="post-header">
+    <h1 class="post-title">CenterLineDet: CenterLine Graph Detection for Road Lanes with Vehicle-mounted Sensors by Transformer for HD Map Generation</h1>
+    <p class="post-description">Authors: Zhenhua Xu, Yuxuan Liu, Yuxiang Sun, Ming Liu and Lujia Wang</p>
+  </header>
+
+  <article>
+    <h2 id="status">Status</h2>
+<p>Accepted by ICRA 2023.</p>
+
+<h2 id="abstract">Abstract</h2>
+<p>With the fast development of autonomous driving technologies, there is an increasing demand for high-definition (HD) maps, which provide reliable and robust prior information about the static part of the traffic environments. As one of the important elements in HD maps, road lane centerline is critical for downstream tasks, such as prediction and planning. Manually annotating centerlines for road lanes in HD maps is labor-intensive, expensive and inefficient, severely restricting the wide applications of autonomous driving systems. Previous work seldom explores the lane centerline detection problem due to the complicated topology and severe overlapping issues of lane centerlines. In this paper, we propose a novel method named CenterLineDet to detect lane centerlines for automatic HD map generation. Our CenterLineDet is trained by imitation learning and can effectively detect the graph of centerlines with vehicle-mounted sensors (i.e., six cameras and one LiDAR) through iterations. Due to the use of the DETR-like transformer network, CenterLineDet can handle complicated graph topology, such as lane intersections. The proposed approach is evaluated on the large-scale public dataset NuScenes. The superiority of our CenterLineDet is demonstrated by the comparative results.</p>
+
+<h2 id="paper">Paper</h2>
+<p><a href="../../assets/pdf/2023_ICRA_CenterLineDet.pdf">pdf</a></p>
+
+<p><a href="https://arxiv.org/abs/2209.07734" target="_blank" rel="noopener noreferrer">arxiv access</a></p>
+
+<h2 id="supplymentary-document">Supplymentary document</h2>
+<p>More details of our implementation and extra visualization are provided in our <a href="../../assets/pdf/2022_ICRA_CenterLineDet_supplementary.pdf">supplementary document</a>.</p>
+
+<h2 id="implementation-code">Implementation Code</h2>
+<p>Inference code is release at our <a href="https://github.com/TonyXuQAQ/CenterLineDet" target="_blank" rel="noopener noreferrer">github page</a>.</p>
+
+<h2 id="demo-video">Demo video</h2>
+<p align="center"><iframe width="560" height="315" src="https://www.youtube.com/embed/r5cbAkH5JrU" frameborder="0" allowfullscreen=""></iframe></p>
+
+<h2 id="system-diagram">System diagram</h2>
+<p align="center">
+  <img style="width: 100%" src="../../assets/img/centerlinedet_diagram.png">
+</p>
 
 
-  <ul class="post-list">
-    
-  </ul>
-
-  
-
+  </article>
 
 </div>
+
     </div>
-    <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=000000&w=300&t=tt&d=6uR2Jt57UT2a72ykovCNYMSNV-0LO0HGhDpScfdqKQY&co=ffffff&ct=606060'></script>
+    <script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?cl=000000&amp;w=300&amp;t=tt&amp;d=6uR2Jt57UT2a72ykovCNYMSNV-0LO0HGhDpScfdqKQY&amp;co=ffffff&amp;ct=606060"></script>
 
     <!-- Footer -->
 
     
 <footer class="fixed-bottom">
   <div class="container mt-0">
-    &copy; Copyright 2024 Zhenhua  Xu.
+    © Copyright 2024 Zhenhua  Xu.
     Last updated on Feb/10/2024.
 
     

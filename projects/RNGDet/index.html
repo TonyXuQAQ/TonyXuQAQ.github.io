@@ -11,7 +11,7 @@
   Zhenhua  Xu
 
 
-  | blog
+  | RNGDet: Road Network Graph Detection by Transformer in Aerial Images
 
 </title>
 <meta name="description" content="A beautiful, simple, clean, and responsive Jekyll theme for academics">
@@ -36,7 +36,7 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22></text></svg>">
 
 <link rel="stylesheet" href="/assets/css/main.css">
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/projects/RNGDet/">
 
 <!-- JQuery -->
 <!-- jQuery -->
@@ -111,8 +111,6 @@
           
           
           
-          
-          
           <li class="nav-item ">
               <a class="nav-link" href="/assets/pdf/Zhenhua_XU_CV.pdf">
                 Curriculum Vitae
@@ -135,8 +133,8 @@
           
           
           
-            <div class = "toggle-container">
-              <a id = "light-toggle">
+            <div class="toggle-container">
+              <a id="light-toggle">
                   <i class="fas fa-moon"></i>
                   <i class="fas fa-sun"></i>
               </a>
@@ -155,29 +153,49 @@
     <div class="container mt-5">
       <div class="post">
 
-  <div class="header-bar">
-    <h1></h1>
-    <h2>a simple whitespace theme for academics</h2>
-  </div>
+  <header class="post-header">
+    <h1 class="post-title">RNGDet: Road Network Graph Detection by Transformer in Aerial Images</h1>
+    <p class="post-description">Authors: Zhenhua Xu, Yuxuan Liu, Lu Gan, Yuxiang Sun, Ming Liu and Lujia Wang</p>
+  </header>
 
+  <article>
+    <h2 id="abstract">Abstract</h2>
+<p>Road network graphs provide critical information for autonomous-vehicle applications, such as drivable areas that can be used for motion planning algorithms. To find road network graphs, manually annotation is usually inefficient and labor-intensive. Automatically detecting road network graphs could alleviate this issue, but existing works still have some limitations. For example, segmentation-based approaches could not ensure satisfactory topology correctness, and graph-based approaches could not present precise enough detection results. To provide a solution to these problems, we propose a novel approach based on transformer and imitation learning in this paper. In view of that high-resolution aerial images could be easily accessed all over the world nowadays, we make use of aerial images in our approach. Taken as input an aerial image, our approach iteratively generates road network graphs vertex-by-vertex. Our approach can handle complicated intersection points with various numbers of incident road segments. We evaluate our approach on a publicly available dataset. The superiority of our approach is demonstrated through the comparative experiments.</p>
 
-  <ul class="post-list">
-    
-  </ul>
+<h2 id="implementation-code">Implementation code</h2>
+<p>RNGDet is used as a baseline in our latest work RNGDet++. Please refer to our <a href="https://github.com/TonyXuQAQ/RNGDetPlusPlus" target="_blank" rel="noopener noreferrer">github page</a>.</p>
 
-  
+<h2 id="demo-video">Demo video</h2>
+<p align="center"><iframe width="560" height="315" src="https://www.youtube.com/embed/9W-L2umn44Q" frameborder="0" allowfullscreen=""></iframe></p>
 
+<h2 id="system-diagram">System diagram</h2>
+<p align="center">
+  <img style="width: 100%" src="../../assets/img/rngdet.png">
+</p>
+
+<h2 id="comparison-results">Comparison results</h2>
+<p align="center">
+  <img style="width: 100%" src="../../assets/img/compare%20results.png">
+</p>
+
+<h2 id="ablation-studies">Ablation studies</h2>
+<p align="center">
+  <img style="width: 100%" src="../../assets/img/ablations.png">
+</p>
+
+  </article>
 
 </div>
+
     </div>
-    <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=000000&w=300&t=tt&d=6uR2Jt57UT2a72ykovCNYMSNV-0LO0HGhDpScfdqKQY&co=ffffff&ct=606060'></script>
+    <script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?cl=000000&amp;w=300&amp;t=tt&amp;d=6uR2Jt57UT2a72ykovCNYMSNV-0LO0HGhDpScfdqKQY&amp;co=ffffff&amp;ct=606060"></script>
 
     <!-- Footer -->
 
     
 <footer class="fixed-bottom">
   <div class="container mt-0">
-    &copy; Copyright 2024 Zhenhua  Xu.
+    © Copyright 2024 Zhenhua  Xu.
     Last updated on Feb/10/2024.
 
     

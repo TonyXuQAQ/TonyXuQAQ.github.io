@@ -11,7 +11,7 @@
   Zhenhua  Xu
 
 
-  | blog
+  | csBoundary: City-scale Road-boundary Detection in Aerial Images for High-definition Maps
 
 </title>
 <meta name="description" content="A beautiful, simple, clean, and responsive Jekyll theme for academics">
@@ -36,7 +36,7 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22></text></svg>">
 
 <link rel="stylesheet" href="/assets/css/main.css">
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/projects/csBoundary/">
 
 <!-- JQuery -->
 <!-- jQuery -->
@@ -111,8 +111,6 @@
           
           
           
-          
-          
           <li class="nav-item ">
               <a class="nav-link" href="/assets/pdf/Zhenhua_XU_CV.pdf">
                 Curriculum Vitae
@@ -135,8 +133,8 @@
           
           
           
-            <div class = "toggle-container">
-              <a id = "light-toggle">
+            <div class="toggle-container">
+              <a id="light-toggle">
                   <i class="fas fa-moon"></i>
                   <i class="fas fa-sun"></i>
               </a>
@@ -155,29 +153,52 @@
     <div class="container mt-5">
       <div class="post">
 
-  <div class="header-bar">
-    <h1></h1>
-    <h2>a simple whitespace theme for academics</h2>
-  </div>
+  <header class="post-header">
+    <h1 class="post-title">csBoundary: City-scale Road-boundary Detection in Aerial Images for High-definition Maps</h1>
+    <p class="post-description">Authors: Zhenhua Xu, Yuxuan Liu, Lu Gan, Xiangcheng Hu, Yuxiang Sun, Lujia Wang, Ming Liu</p>
+  </header>
 
+  <article>
+    <h2 id="abstract">Abstract</h2>
+<p>High-Definition (HD) maps can provide precise geometric and semantic information of static traffic environments for autonomous driving. Road-boundary is one important information presented in HD maps since it distinguishes between road areas and off-road areas, which can guide vehicles to drive within road areas. But it is labor-intensive to annotate road boundaries for HD maps at the city scale. To enable automatic HD map annotation, current work uses semantic segmentation or iterative graph growing for road-boundary detection. However, the former could not ensure topological correctness since it works at the pixel level, while the latter suffers from inefficiency and drifting issues. To provide a solution to the aforementioned problems, in this letter, we propose a novel system termed csBoundary to automatically detect road boundaries at the city scale for HD map annotation. Our network takes as input an aerial image patch, and directly infers the continuous road-boundary graph (i.e., vertices and edges) from this image. To generate the city-scale road-boundary graph, we stitch the obtained graphs from all the image patches. Our csBoundary is evaluated and compared on a public benchmark dataset. The results demonstrate our superiority.</p>
 
-  <ul class="post-list">
-    
-  </ul>
+<h2 id="paper">Paper</h2>
+<p><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=9721009" target="_blank" rel="noopener noreferrer">IEEE access</a></p>
 
-  
+<p><a href="https://arxiv.org/abs/2111.06020" target="_blank" rel="noopener noreferrer">arxiv access</a></p>
 
+<h2 id="demo-video">Demo video</h2>
+<p align="center"><iframe width="560" height="315" src="https://www.youtube.com/embed/yTrdGgicHDE" frameborder="0" allowfullscreen=""></iframe></p>
+
+<h2 id="supplymentary-document">Supplymentary document</h2>
+<p>More details of our implementation and extra visualization are provided in our <a href="../../assets/pdf/2021_RAL_ICRA_supplementary.pdf">supplementary document</a>.</p>
+
+<h2 id="citation">Citation</h2>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@article{xu2022csboundary,
+  title={csBoundary: City-Scale Road-Boundary Detection in Aerial Images for High-Definition Maps},
+  author={Xu, Zhenhua and Liu, Yuxuan and Gan, Lu and Hu, Xiangcheng and Sun, Yuxiang and Liu, Ming and Wang, Lujia},
+  journal={IEEE Robotics and Automation Letters},
+  volume={7},
+  number={2},
+  pages={5063--5070},
+  year={2022},
+  publisher={IEEE}
+}
+</code></pre></div></div>
+
+  </article>
 
 </div>
+
     </div>
-    <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=000000&w=300&t=tt&d=6uR2Jt57UT2a72ykovCNYMSNV-0LO0HGhDpScfdqKQY&co=ffffff&ct=606060'></script>
+    <script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?cl=000000&amp;w=300&amp;t=tt&amp;d=6uR2Jt57UT2a72ykovCNYMSNV-0LO0HGhDpScfdqKQY&amp;co=ffffff&amp;ct=606060"></script>
 
     <!-- Footer -->
 
     
 <footer class="fixed-bottom">
   <div class="container mt-0">
-    &copy; Copyright 2024 Zhenhua  Xu.
+    © Copyright 2024 Zhenhua  Xu.
     Last updated on Feb/10/2024.
 
     

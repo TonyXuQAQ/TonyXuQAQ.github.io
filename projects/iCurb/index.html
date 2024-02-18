@@ -11,7 +11,7 @@
   Zhenhua  Xu
 
 
-  | blog
+  | iCurb: Imitation Learning-based Detection of Road Curbs using Aerial Images for Autonomous Driving
 
 </title>
 <meta name="description" content="A beautiful, simple, clean, and responsive Jekyll theme for academics">
@@ -36,7 +36,7 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22></text></svg>">
 
 <link rel="stylesheet" href="/assets/css/main.css">
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/projects/iCurb/">
 
 <!-- JQuery -->
 <!-- jQuery -->
@@ -111,8 +111,6 @@
           
           
           
-          
-          
           <li class="nav-item ">
               <a class="nav-link" href="/assets/pdf/Zhenhua_XU_CV.pdf">
                 Curriculum Vitae
@@ -135,8 +133,8 @@
           
           
           
-            <div class = "toggle-container">
-              <a id = "light-toggle">
+            <div class="toggle-container">
+              <a id="light-toggle">
                   <i class="fas fa-moon"></i>
                   <i class="fas fa-sun"></i>
               </a>
@@ -155,29 +153,58 @@
     <div class="container mt-5">
       <div class="post">
 
-  <div class="header-bar">
-    <h1></h1>
-    <h2>a simple whitespace theme for academics</h2>
-  </div>
+  <header class="post-header">
+    <h1 class="post-title">iCurb: Imitation Learning-based Detection of Road Curbs using Aerial Images for Autonomous Driving</h1>
+    <p class="post-description">Authors: Zhenhua Xu, Yuxiang Sun, Ming Liu</p>
+  </header>
 
+  <article>
+    <h2 id="abstract">Abstract</h2>
+<p>Detection of road curbs is an essential capability for autonomous driving. It can be used for autonomous vehicles to determine drivable areas on roads. Usually, road curbs are detected on-line using vehicle-mounted sensors, such as video cameras and 3-D Lidars. However, on-line detection using video cameras may suffer from challenging illumination conditions, and Lidar-based approaches may be difficult to detect far-away road curbs due to the sparsity issue of point clouds. In recent years, aerial images are becoming more and more worldwide available. We find that the visual appearances between road areas and off-road areas are usually different in aerial images, so we propose a novel solution to detect road curbs off-line using aerial images. The input to our method is an aerial image, and the output is directly a graph (i.e., vertices and edges) representing road curbs. To this end, we formulate the problem as an imitation learning problem, and design a novel network and an innovative training strategy to train an agent to iteratively find the road-curb graph. The experimental results on a public dataset confirm the effectiveness and superiority of our method.</p>
 
-  <ul class="post-list">
-    
-  </ul>
+<h2 id="paper">Paper</h2>
+<p><a href="https://ieeexplore.ieee.org/document/9345473" target="_blank" rel="noopener noreferrer">IEEE access</a></p>
 
-  
+<p><a href="https://arxiv.org/abs/2103.17118" target="_blank" rel="noopener noreferrer">arxiv access</a></p>
 
+<h2 id="demo-video">Demo video</h2>
+<p align="center"><iframe width="560" height="315" src="https://www.youtube.com/embed/fMhcZm_MPUE" frameborder="0" allowfullscreen=""></iframe></p>
+
+<h2 id="supplymentary-document">Supplymentary document</h2>
+<p>More details of our implementation and extra visualization are provided in our <a href="../../assets/pdf/2020_RAL_ICRA_supplementary_V3.pdf">supplementary document</a>.</p>
+
+<h2 id="implementation-code">Implementation Code</h2>
+<p>iCurb is implemented in our new benchmark dataset for road-boundary detection. The data and code can be obtain in <a href="https://github.com/TonyXuQAQ/Topo-boundary/tree/master/graph_based_baselines/iCurb" target="_blank" rel="noopener noreferrer">this repo</a>.</p>
+
+<h2 id="contact">Contact</h2>
+<p>Any questons, comments and suggestions are welcomed! Please send email to <strong>zxubg at connect dot ust dot hk</strong>.</p>
+
+<h2 id="citation">Citation</h2>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@article{xu2021icurb,
+  title={iCurb: Imitation Learning-Based Detection of Road Curbs Using Aerial Images for Autonomous Driving},
+  author={Xu, Zhenhua and Sun, Yuxiang and Liu, Ming},
+  journal={IEEE Robotics and Automation Letters},
+  volume={6},
+  number={2},
+  pages={1097--1104},
+  year={2021},
+  publisher={IEEE}
+}
+</code></pre></div></div>
+
+  </article>
 
 </div>
+
     </div>
-    <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=000000&w=300&t=tt&d=6uR2Jt57UT2a72ykovCNYMSNV-0LO0HGhDpScfdqKQY&co=ffffff&ct=606060'></script>
+    <script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?cl=000000&amp;w=300&amp;t=tt&amp;d=6uR2Jt57UT2a72ykovCNYMSNV-0LO0HGhDpScfdqKQY&amp;co=ffffff&amp;ct=606060"></script>
 
     <!-- Footer -->
 
     
 <footer class="fixed-bottom">
   <div class="container mt-0">
-    &copy; Copyright 2024 Zhenhua  Xu.
+    © Copyright 2024 Zhenhua  Xu.
     Last updated on Feb/10/2024.
 
     

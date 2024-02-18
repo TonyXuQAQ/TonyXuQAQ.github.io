@@ -11,7 +11,7 @@
   Zhenhua  Xu
 
 
-  | blog
+  | CP-loss: Connectivity-preserving Loss for Road Curb Detection in Autonomous Driving with Aerial Images
 
 </title>
 <meta name="description" content="A beautiful, simple, clean, and responsive Jekyll theme for academics">
@@ -36,7 +36,7 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22></text></svg>">
 
 <link rel="stylesheet" href="/assets/css/main.css">
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/projects/CP-Loss/">
 
 <!-- JQuery -->
 <!-- jQuery -->
@@ -111,8 +111,6 @@
           
           
           
-          
-          
           <li class="nav-item ">
               <a class="nav-link" href="/assets/pdf/Zhenhua_XU_CV.pdf">
                 Curriculum Vitae
@@ -135,8 +133,8 @@
           
           
           
-            <div class = "toggle-container">
-              <a id = "light-toggle">
+            <div class="toggle-container">
+              <a id="light-toggle">
                   <i class="fas fa-moon"></i>
                   <i class="fas fa-sun"></i>
               </a>
@@ -155,29 +153,50 @@
     <div class="container mt-5">
       <div class="post">
 
-  <div class="header-bar">
-    <h1></h1>
-    <h2>a simple whitespace theme for academics</h2>
-  </div>
+  <header class="post-header">
+    <h1 class="post-title">CP-loss: Connectivity-preserving Loss for Road Curb Detection in Autonomous Driving with Aerial Images</h1>
+    <p class="post-description">Authors: Zhenhua Xu, Yuxiang Sun, Lujia Wang, Ming Liu</p>
+  </header>
 
+  <article>
+    <h2 id="abstract">Abstract</h2>
+<p>Road curb detection is important for autonomous driving. It can be used to determine road boundaries to constrain vehicles on roads, so that potential accidents could be avoided. Most of the current methods detect road curbs online using vehicle-mounted sensors, such as cameras or 3-D Lidars. However, these methods usually suffer from severe occlusion issues. Especially in highly-dynamic traffic environments, most of the field of view is occupied by dynamic objects. To alleviate this issue, we detect road curbs offline using high-resolution aerial images in this paper. Moreover, the detected road curbs can be used to create high-definition (HD) maps for autonomous vehicles. Specifically, we first predict the pixel-wise segmentation map of road curbs, and then conduct a series of post-processing steps to extract the graph structure of road curbs. To tackle the disconnectivity issue in the segmentation maps, we propose an innovative connectivity-preserving loss (CP-loss) to improve the segmentation performance. The experimental results on a public dataset demonstrate the effectiveness of our proposed loss function.</p>
 
-  <ul class="post-list">
-    
-  </ul>
+<h2 id="paper">Paper</h2>
+<p><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=9636060" target="_blank" rel="noopener noreferrer">IEEE access</a></p>
 
-  
+<p><a href="https://arxiv.org/abs/2107.11920" target="_blank" rel="noopener noreferrer">arxiv access</a></p>
 
+<h2 id="demo-video">Demo video</h2>
+<p align="center"><iframe width="560" height="315" src="https://www.youtube.com/embed/jbDIuQl8B0s" frameborder="0" allowfullscreen=""></iframe></p>
+
+<h2 id="supplymentary-document">Supplymentary document</h2>
+<p>More details of our implementation and extra visualization are provided in our <a href="../../assets/pdf/2021_IROS_supplementary.pdf">supplementary document</a>.</p>
+
+<h2 id="citation">Citation</h2>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@inproceedings{xu2021cp,
+  title={CP-loss: Connectivity-preserving Loss for Road Curb Detection in Autonomous Driving with Aerial Images},
+  author={Xu, Zhenhua and Sun, Yuxiang and Wang, Lujia and Liu, Ming},
+  booktitle={2021 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  pages={1117--1123},
+  year={2021},
+  organization={IEEE}
+}
+</code></pre></div></div>
+
+  </article>
 
 </div>
+
     </div>
-    <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=000000&w=300&t=tt&d=6uR2Jt57UT2a72ykovCNYMSNV-0LO0HGhDpScfdqKQY&co=ffffff&ct=606060'></script>
+    <script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?cl=000000&amp;w=300&amp;t=tt&amp;d=6uR2Jt57UT2a72ykovCNYMSNV-0LO0HGhDpScfdqKQY&amp;co=ffffff&amp;ct=606060"></script>
 
     <!-- Footer -->
 
     
 <footer class="fixed-bottom">
   <div class="container mt-0">
-    &copy; Copyright 2024 Zhenhua  Xu.
+    © Copyright 2024 Zhenhua  Xu.
     Last updated on Feb/10/2024.
 
     
