@@ -6,7 +6,7 @@ projectname: InsightMapper
 title: A closer look at inner-instance information for vectorized High-Definition Mapping
 author1: Zhenhua Xu
 author1link: https://tonyxuqaq.github.io/
-author2: Kenneth K.Y. Wong
+author2:  Wong, Kwan-Yee~K.
 author2link: https://i.cs.hku.hk/~kykwong/
 author3: Hengshuang Zhao
 author3link: https://hszhao.github.io/
@@ -71,7 +71,7 @@ We thank these high-quality open-sourced projects
 ```
 @article{xu2023insightmapper,
   title={InsightMapper: A Closer Look at Inner-instance Information for Vectorized High-Definition Mapping},
-  author={Xu, Zhenhua and Wong, Kenneth KY and Zhao, Hengshuang},
+  author={Xu, Zhenhua and Wong, Kwan-Yee~K. and Zhao, Hengshuang},
   journal={arXiv preprint arXiv:2308.08543},
   year={2023}
 }

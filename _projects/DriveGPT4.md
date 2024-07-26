@@ -110,7 +110,7 @@ For any questions, please send email to zhxuv at hku dot hk。
 ```
 @article{xu2023drivegpt4,
   title={DriveGPT4: Interpretable End-to-end Autonomous Driving via Large Language Model},
-  author={Xu, Zhenhua and Zhang, Yujia and Xie, Enze and Zhao, Zhen and Guo, Yong and Wong, Kenneth KY and Li, Zhenguo and Zhao, Hengshuang},
+  author={Xu, Zhenhua and Zhang, Yujia and Xie, Enze and Zhao, Zhen and Guo, Yong and Wong, Kwan-Yee~K. and Li, Zhenguo and Zhao, Hengshuang},
   journal={arXiv preprint arXiv:2310.01412},
   year={2023}
 }
