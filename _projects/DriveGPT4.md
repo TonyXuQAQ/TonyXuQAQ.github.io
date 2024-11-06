@@ -31,8 +31,8 @@ affiliations4:
 paper: ../../assets/pdf/DriveGPT4.pdf
 arxiv: https://arxiv.org/abs/2310.01412
 video: https://youtu.be/CPoskBNjHlk
-code: https://arxiv.org/abs/2310.01412
-data: https://arxiv.org/abs/2310.01412
+code: https://drive.google.com/drive/folders/1PsGL7ZxMMz1ZPDS5dZSjzjfPjuPHxVL5?usp=sharing
+data: https://drive.google.com/drive/folders/1PsGL7ZxMMz1ZPDS5dZSjzjfPjuPHxVL5?usp=sharing
 ---
 
 
@@ -103,7 +103,7 @@ We provide some demos for DriveGPT4 generated conversations.
 
 ---
 ## Contact
-For any questions, please send email to zhxuv at hku dot hk。
+For any questions, please send email to zxubg at connect dot ust dot hk.
 
 ---
 ## Citation
