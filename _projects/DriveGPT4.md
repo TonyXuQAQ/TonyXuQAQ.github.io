@@ -28,7 +28,7 @@ affiliations3:
     Huawei Noah's Ark Lab
 affiliations4:
     University of Sydney 
-paper: ../../assets/pdf/DriveGPT4.pdf
+paper: ../../assets/pdf/2024_RAL_DriveGPT4.pdf
 arxiv: https://arxiv.org/abs/2310.01412
 video: https://youtu.be/CPoskBNjHlk
 code: https://drive.google.com/drive/folders/1PsGL7ZxMMz1ZPDS5dZSjzjfPjuPHxVL5?usp=sharing
@@ -108,10 +108,11 @@ For any questions, please send email to zxubg at connect dot ust dot hk.
 ---
 ## Citation
 ```
-@article{xu2023drivegpt4,
-  title={DriveGPT4: Interpretable End-to-end Autonomous Driving via Large Language Model},
-  author={Xu, Zhenhua and Zhang, Yujia and Xie, Enze and Zhao, Zhen and Guo, Yong and Wong, Kwan-Yee~K. and Li, Zhenguo and Zhao, Hengshuang},
-  journal={arXiv preprint arXiv:2310.01412},
-  year={2023}
+@article{xu2024drivegpt4,
+  title={Drivegpt4: Interpretable end-to-end autonomous driving via large language model},
+  author={Xu, Zhenhua and Zhang, Yujia and Xie, Enze and Zhao, Zhen and Guo, Yong and Wong, Kwan-Yee K and Li, Zhenguo and Zhao, Hengshuang},
+  journal={IEEE Robotics and Automation Letters},
+  year={2024},
+  publisher={IEEE}
 }
 ```
