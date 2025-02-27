@@ -5,7 +5,7 @@ permalink: /
 
 profile:
   align: right
-  image: zhxu.png
+  image: ../assets/img/zhxu.png
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
