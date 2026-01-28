@@ -31,8 +31,7 @@ affiliations4:
 paper: ../../assets/pdf/2024_RAL_DriveGPT4.pdf
 arxiv: https://arxiv.org/abs/2310.01412
 video: https://youtu.be/CPoskBNjHlk
-code: https://drive.google.com/drive/folders/1PsGL7ZxMMz1ZPDS5dZSjzjfPjuPHxVL5?usp=sharing
-data: https://drive.google.com/drive/folders/1PsGL7ZxMMz1ZPDS5dZSjzjfPjuPHxVL5?usp=sharing
+code: https://cloud.tsinghua.edu.cn/d/adbc8fa3a2fc420ca7bc/
 ---
 
 
