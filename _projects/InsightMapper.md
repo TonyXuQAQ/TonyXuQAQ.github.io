@@ -69,10 +69,12 @@ We thank these high-quality open-sourced projects
 
 ## Citation
 ```
-@article{xu2023insightmapper,
-  title={InsightMapper: A Closer Look at Inner-instance Information for Vectorized High-Definition Mapping},
-  author={Xu, Zhenhua and Wong, Kwan-Yee~K. and Zhao, Hengshuang},
-  journal={arXiv preprint arXiv:2308.08543},
-  year={2023}
+@inproceedings{xu2024insmapper,
+  title={Insmapper: Exploring inner-instance information for vectorized hd mapping},
+  author={Xu, Zhenhua and K. Wong, Kwan-Yee and Zhao, Hengshuang},
+  booktitle={European Conference on Computer Vision},
+  pages={296--312},
+  year={2024},
+  organization={Springer}
 }
 ```
