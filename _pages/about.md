@@ -12,7 +12,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false
 ---
 
-Hello, this is Zhenhua Xu(许振华). Currently I work as a postdoc in the School of Vehicle and Mobility, Tsinghua University, supervised by [Prof. Jianqiang Wang](https://scholar.google.com/citations?user=5mUoFN0AAAAJ&hl=en).
+Hello, this is Zhenhua Xu(许振华). Currently I work as a postdoc in the School of Vehicle and Mobility, Tsinghua University, supervised by [Prof. Jianqiang Wang](https://www.svm.tsinghua.edu.cn/essay/80/1824.html).
 
 Previously, I spent a wonderful year in the University of Hong Kong (HKU) with [Prof. Hengshuang Zhao](https://hszhao.github.io/). I received my Ph.D. from the Computer Science and Engineering (CSE) Department of the Hong Kong University of Science and Technology (HKUST), where I was co-supervised by [Prof.Ming Liu](https://facultyprofiles.ust.hk/profiles.php?profile=ming-liu-eelium) and [Prof.Huamin Qu](http://huamin.org/). Prior to joining HKUST, I obtained my bachelor degree in Electronics and Information Engineering from Harbin Institute of Technology, under the supervision of [Prof. Yun Zhang](https://www.researchgate.net/profile/Yun-Zhang-72).
 
