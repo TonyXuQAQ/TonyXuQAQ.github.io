@@ -133,9 +133,11 @@ function PublicationEntry({
   return (
     <article className="publication">
       <div className="paper-preview">
+        <div className="paper-media-frame">
+          <PublicationPreview publication={publication} />
+        </div>
         <span className="paper-venue-badge">{publication.venueShort}</span>
         {publication.award ? <PublicationAward award={publication.award} /> : null}
-        <PublicationPreview publication={publication} />
       </div>
 
       <div className="paper-content">
