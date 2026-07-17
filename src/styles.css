@@ -878,7 +878,7 @@ video {
 
 .award-list {
   display: grid;
-  max-width: 780px;
+  max-width: 960px;
 }
 
 .award-item {
