@@ -100,9 +100,9 @@ pnpm build
 
 1. 在 GitHub 新建仓库。
 2. 将本项目提交并推送到 `master` 分支。
-3. 打开仓库的 **Settings → Pages**。
-4. 将 **Source** 设置为 **GitHub Actions**。
-5. 再次推送后，GitHub Actions 会自动构建并部署。
+3. GitHub Actions 会自动构建主页，并仅将 `dist/` 中的静态文件发布到
+   `gh-pages` 分支。
+4. 仓库的 **Settings → Pages** 保持从 `gh-pages` 分支根目录发布。
 
 `vite.config.ts` 使用相对资源路径，因此既支持 `username.github.io`，也支持 `username.github.io/repository-name/`。
 
