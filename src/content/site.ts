@@ -936,6 +936,11 @@ export const siteConfig = {
   ],
 
   awards: [
+    {
+      title:
+        "Excellent Young Scientists Fund (Overseas), National Natural Science Foundation of China (NSFC)",
+      period: "2025",
+    },
     { title: "Tsinghua Shuimu Scholar", period: "2024–2026" },
     { title: "Hong Kong PhD Fellowship Scheme (HKPFS)", period: "2018–2022" },
     { title: "Outstanding Graduate of Harbin Institute of Technology", period: "2018" },
