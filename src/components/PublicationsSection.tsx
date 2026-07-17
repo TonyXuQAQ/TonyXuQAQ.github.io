@@ -189,11 +189,6 @@ export function PublicationsSection({
       <div className="section-heading-row">
         <div>
           <h2>{mode === "selected" ? "Selected Publications" : "Publications"}</h2>
-          <p className="section-note">
-            {mode === "selected"
-              ? "A selection of recent and representative work."
-              : "Preprints first, followed by peer-reviewed publications."}
-          </p>
           {authorNotes.length > 0 ? (
             <p className="publication-legend">{authorNotes.join(" · ")}</p>
           ) : null}
