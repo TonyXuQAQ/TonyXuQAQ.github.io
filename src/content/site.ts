@@ -33,9 +33,9 @@ export const siteConfig = {
     nativeName: "许振华",
     photo: "images/profile.jpg",
     photoAlt: "Portrait of Zhenhua Xu",
-    photoPosition: "left center",
-    photoScale: 1.035,
-    photoRotation: -1,
+    photoPosition: "center",
+    photoScale: 1,
+    photoRotation: 0,
     position: "Postdoctoral Researcher · Tsinghua Shuimu Scholar",
     department: {
       label: "School of Vehicle and Mobility",
