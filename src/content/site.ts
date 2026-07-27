@@ -268,8 +268,8 @@ export const siteConfig = {
     {
       title: "DriveCode: Domain Specific Numerical Encoding for LLM-Based Autonomous Driving",
       authors: [
-        "Zhiye Wang",
-        "Yanbo Jiang",
+        "Zhiye Wang*",
+        "Yanbo Jiang*",
         "Rui Zhou",
         "Bo Zhang",
         "Fang Zhang†",
@@ -277,7 +277,7 @@ export const siteConfig = {
         "Yaqin Zhang",
         "Jianqiang Wang",
       ],
-      authorNote: "† Corresponding author",
+      authorNote: "* Equal contribution · † Corresponding author",
       venue: "IEEE Robotics and Automation Letters",
       venueShort: "RA-L",
       year: 2026,
