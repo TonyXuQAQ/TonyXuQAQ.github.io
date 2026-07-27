@@ -300,8 +300,8 @@ export const siteConfig = {
     {
       title: "GRADE: Guiding Realistic Autonomous Driving with Adaptive Trajectory Evolution",
       authors: [
-        "Zehong Ke",
-        "Zhiyuan Liu",
+        "Zehong Ke*",
+        "Zhiyuan Liu*",
         "Yuning Wang†",
         "Jinhao Li",
         "Junkai Jiang",
@@ -309,7 +309,7 @@ export const siteConfig = {
         "Zhenhua Xu†",
         "Jianqiang Wang",
       ],
-      authorNote: "† Corresponding author",
+      authorNote: "* Equal contribution · † Corresponding author",
       venue: "Findings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
       venueShort: "CVPR Findings",
       year: 2026,
