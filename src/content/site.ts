@@ -102,6 +102,15 @@ export const siteConfig = {
     {
       date: "2026.07",
       paperNames: [
+        "Learning from Risk: LLM-Guided Generation of Safety-Critical Scenarios with Prior Knowledge",
+      ],
+      action: "was accepted by",
+      venue: "TR-E",
+      featured: true,
+    },
+    {
+      date: "2026.07",
+      paperNames: [
         "DriveCode: Domain Specific Numerical Encoding for LLM-Based Autonomous Driving",
       ],
       action: "was accepted by",
@@ -232,6 +241,31 @@ export const siteConfig = {
   // The homepage highlights entries marked selected: true.
   publications: [
     {
+      title: "Learning from Risk: LLM-Guided Generation of Safety-Critical Scenarios with Prior Knowledge",
+      authors: [
+        "Yuhang Wang",
+        "Heye Huang†",
+        "Zhenhua Xu",
+        "Kailai Sun",
+        "Baoshen Guo",
+        "Jinhua Zhao",
+      ],
+      authorNote: "† Corresponding author",
+      venue: "Transportation Research Part E: Logistics and Transportation Review",
+      venueShort: "TR-E",
+      year: 2026,
+      media: {
+        type: "image",
+        src: "images/publications/learning-from-risk.png",
+        alt: "Learning from Risk LLM-guided CVAE-GNN framework",
+      },
+      links: [
+        { label: "Paper", url: "https://arxiv.org/abs/2511.20726" },
+        { label: "Code", url: "https://github.com/echoleaeperw/LRF" },
+      ],
+      selected: true,
+    },
+    {
       title: "DriveCode: Domain Specific Numerical Encoding for LLM-Based Autonomous Driving",
       authors: [
         "Zhiye Wang",
@@ -291,31 +325,6 @@ export const siteConfig = {
         },
       ],
       selected: true,
-    },
-    {
-      title: "Learning from Risk: LLM-Guided Generation of Safety-Critical Scenarios with Prior Knowledge",
-      authors: [
-        "Yuhang Wang",
-        "Heye Huang",
-        "Zhenhua Xu",
-        "Kailai Sun",
-        "Baoshen Guo",
-        "Jinhua Zhao",
-      ],
-      publicationType: "preprint",
-      venue: "arXiv preprint",
-      venueShort: "arXiv",
-      year: 2025,
-      media: {
-        type: "image",
-        src: "images/publications/learning-from-risk.png",
-        alt: "Learning from Risk LLM-guided CVAE-GNN framework",
-      },
-      links: [
-        { label: "Paper", url: "https://arxiv.org/abs/2511.20726" },
-        { label: "Code", url: "https://github.com/echoleaeperw/LRF" },
-      ],
-      selected: false,
     },
     {
       title: "Sim-to-Real Dynamic Object Manipulation on Conveyor Systems via Optimization Path Shaping",
