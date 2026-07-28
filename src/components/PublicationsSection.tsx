@@ -22,6 +22,8 @@ const primaryLinkOrder: Record<PublicationResourceLabel, number> = {
   Model: 4,
 };
 
+const authorNoteOrder = ["* Equal contribution", "† Corresponding author"];
+
 function orderedPublicationLinks(links: Publication["links"]) {
   return links
     .map((link, index) => ({ link, index }))
@@ -179,8 +181,23 @@ export function PublicationsSection({
         ]
       : [{ title: "", items: visibleItems }];
   const authorNotes = Array.from(
-    new Set(visibleItems.flatMap((item) => (item.authorNote ? [item.authorNote] : []))),
-  );
+    new Set(
+      visibleItems.flatMap((item) =>
+        item.authorNote
+          ? item.authorNote.split(/\s*·\s*/u).filter(Boolean)
+          : [],
+      ),
+    ),
+  ).sort((left, right) => {
+    const leftOrder = authorNoteOrder.indexOf(left);
+    const rightOrder = authorNoteOrder.indexOf(right);
+
+    return (
+      (leftOrder === -1 ? authorNoteOrder.length : leftOrder) -
+        (rightOrder === -1 ? authorNoteOrder.length : rightOrder) ||
+      left.localeCompare(right)
+    );
+  });
 
   if (items.length === 0) {
     return null;

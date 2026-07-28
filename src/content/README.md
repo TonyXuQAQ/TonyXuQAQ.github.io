@@ -36,8 +36,9 @@ never to a local PDF path.
 
 Set `publicationType: "preprint"` for unpublished manuscripts. The Publications
 page automatically places them in a separate group before formal publications.
-Use `authorNote` for author marks such as `† Corresponding author`; unique marks
-are explained once in the section heading.
+Use `authorNote` for author marks such as `† Corresponding author`. Separate
+multiple marks with ` · `; individual marks are deduplicated and explained once
+in the section heading.
 
 Education and experience entries support linked `advisors`, concise `topics`,
 and a secondary `note` for distinctions such as HKPFS.
