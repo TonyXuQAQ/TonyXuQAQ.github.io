@@ -100,6 +100,15 @@ export const siteConfig = {
   // Publication titles and venues render in bold.
   news: [
     {
+      date: "2026.09",
+      paperNames: [
+        "DRiF: Data-Driven Risk Fields for Safer End-to-End Autonomous Driving",
+      ],
+      action: "was released on",
+      venue: "arXiv",
+      featured: true,
+    },
+    {
       date: "2026.07",
       paperNames: [
         "Learning from Risk: LLM-Guided Generation of Safety-Critical Scenarios with Prior Knowledge",
@@ -240,6 +249,29 @@ export const siteConfig = {
 
   // The homepage highlights entries marked selected: true.
   publications: [
+    {
+      title: "Data-Driven Risk Fields for Safer End-to-End Autonomous Driving",
+      authors: [
+        "Yuanxin Tian*",
+        "Zhiyuan Liu*",
+        "Jinhao Li",
+        "Zhenhua Xu†",
+        "Wenhao Yu†",
+        "Jianqiang Wang",
+      ],
+      authorNote: "* Equal contribution · † Corresponding author",
+      publicationType: "preprint",
+      venue: "arXiv preprint",
+      venueShort: "arXiv",
+      year: 2026,
+      media: {
+        type: "image",
+        src: "images/publications/drif.png",
+        alt: "DRiF comparison of conventional scene representations and ego-conditioned risk fields",
+      },
+      links: [{ label: "Paper", url: "https://arxiv.org/abs/2609.10377" }],
+      selected: true,
+    },
     {
       title: "Learning from Risk: LLM-Guided Generation of Safety-Critical Scenarios with Prior Knowledge",
       authors: [
@@ -969,7 +1001,7 @@ export const siteConfig = {
   ],
 
   footer: {
-    lastUpdated: "July 2026",
+    lastUpdated: "September 2026",
     visitorMapUrl: "",
   },
 } satisfies SiteConfig;
