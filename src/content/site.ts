@@ -100,15 +100,6 @@ export const siteConfig = {
   // Publication titles and venues render in bold.
   news: [
     {
-      date: "2026.09",
-      paperNames: [
-        "DRiF: Data-Driven Risk Fields for Safer End-to-End Autonomous Driving",
-      ],
-      action: "was released on",
-      venue: "arXiv",
-      featured: true,
-    },
-    {
       date: "2026.07",
       paperNames: [
         "Learning from Risk: LLM-Guided Generation of Safety-Critical Scenarios with Prior Knowledge",
@@ -255,6 +246,12 @@ export const siteConfig = {
         "Yuanxin Tian*",
         "Zhiyuan Liu*",
         "Jinhao Li",
+        "Liangfan Zhu",
+        "Shuai Wang",
+        "Heye Huang",
+        "Qingwen Meng",
+        "Fang Zhang",
+        "Liuzhu Tong",
         "Zhenhua Xu†",
         "Wenhao Yu†",
         "Jianqiang Wang",
