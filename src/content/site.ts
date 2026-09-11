@@ -241,6 +241,27 @@ export const siteConfig = {
   // The homepage highlights entries marked selected: true.
   publications: [
     {
+      title: "READ: Learning Risk-Informed Fields for End-to-End Autonomous Driving",
+      authors: [
+        "Zhiyuan Liu*",
+        "Yuanxin Tian*",
+        "Zehong Ke",
+        "Jinhao Li",
+        "Hao Cheng",
+        "Zhenhua Xu†",
+        "Wenhao Yu†",
+        "Jianqiang Wang",
+      ],
+      authorNote: "* Equal contribution · † Corresponding author",
+      publicationType: "preprint",
+      venue: "Preprint",
+      venueShort: "Preprint",
+      year: 2026,
+      mediaStatus: "Preview available after arXiv release",
+      links: [],
+      selected: true,
+    },
+    {
       title: "Data-Driven Risk Fields for Safer End-to-End Autonomous Driving",
       authors: [
         "Yuanxin Tian*",
