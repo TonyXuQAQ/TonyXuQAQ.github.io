@@ -313,7 +313,7 @@ export const siteConfig = {
         { label: "Paper", url: "https://arxiv.org/abs/2511.20726" },
         { label: "Code", url: "https://github.com/echoleaeperw/LRF" },
       ],
-      selected: true,
+      selected: false,
     },
     {
       title: "DriveCode: Domain Specific Numerical Encoding for LLM-Based Autonomous Driving",
@@ -600,7 +600,7 @@ export const siteConfig = {
         },
         { label: "Code", url: "https://github.com/TonyXuQAQ/RNGDetPlusPlus" },
       ],
-      selected: true,
+      selected: false,
     },
     {
       title: "CenterLineDet: CenterLine Graph Detection for Road Lanes with Vehicle-Mounted Sensors by Transformer for HD Map Generation",
