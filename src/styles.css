@@ -541,6 +541,11 @@ video {
   border-radius: 4px;
 }
 
+.paper-media-frame--crop {
+  display: grid;
+  place-items: center;
+}
+
 .paper-media {
   display: block;
   width: 100%;
@@ -556,6 +561,19 @@ video {
 
 .paper-media--cover {
   padding: 0;
+}
+
+.paper-media-crop {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.paper-media-crop-image {
+  position: absolute;
+  display: block;
+  max-width: none;
+  height: auto;
 }
 
 .paper-placeholder {

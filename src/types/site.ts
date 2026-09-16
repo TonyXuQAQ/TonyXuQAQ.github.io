@@ -70,8 +70,13 @@ export interface PublicationMedia {
   fit?: "contain" | "cover";
   position?: string;
   scale?: number;
-  zoomOrigin?: string;
-  frameAspectRatio?: number;
+  crop?: {
+    x: number;
+    y: number;
+    width: number;
+    height: number;
+    imageWidth: number;
+  };
 }
 
 export type PublicationResourceLabel =

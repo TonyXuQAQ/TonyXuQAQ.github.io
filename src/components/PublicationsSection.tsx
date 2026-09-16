@@ -48,7 +48,6 @@ function mediaPresentation(media: PublicationMedia): {
       objectFit: fit,
       objectPosition: media.position ?? "center",
       transform: media.scale && media.scale !== 1 ? `scale(${media.scale})` : undefined,
-      transformOrigin: media.zoomOrigin ?? "center",
     },
   };
 }
@@ -80,6 +79,26 @@ function PublicationPreview({ publication }: { publication: Publication }) {
         loop
         playsInline
       />
+    );
+  }
+
+  if (publication.media.crop) {
+    const { x, y, width, height, imageWidth } = publication.media.crop;
+
+    return (
+      <div className="paper-media-crop" style={{ aspectRatio: width / height }}>
+        <img
+          className="paper-media-crop-image"
+          style={{
+            width: `${(imageWidth / width) * 100}%`,
+            left: `${(-x / width) * 100}%`,
+            top: `${(-y / height) * 100}%`,
+          }}
+          src={resolveUrl(publication.media.src)}
+          alt={publication.media.alt}
+          loading="lazy"
+        />
+      </div>
     );
   }
 
@@ -135,15 +154,10 @@ function PublicationEntry({
 }) {
   return (
     <article className="publication">
-      <div
-        className="paper-preview"
-        style={
-          publication.media?.frameAspectRatio
-            ? { aspectRatio: publication.media.frameAspectRatio }
-            : undefined
-        }
-      >
-        <div className="paper-media-frame">
+      <div className="paper-preview">
+        <div
+          className={`paper-media-frame${publication.media?.crop ? " paper-media-frame--crop" : ""}`}
+        >
           <PublicationPreview publication={publication} />
         </div>
         <span className="paper-venue-badge">{publication.venueShort}</span>
