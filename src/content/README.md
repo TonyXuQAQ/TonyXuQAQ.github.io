@@ -45,8 +45,11 @@ and a secondary `note` for distinctions such as HKPFS.
 
 For a paper preview, set `media.src` to a file under
 `public/images/publications/`. Scientific diagrams default to `fit: "contain"`
-so the full figure is visible. Use `fit: "cover"` only for photographs, and
-optionally tune `position` or `scale` for that individual preview. When a paper
+so the full figure is visible. Use `fit: "cover"` for photographs or when
+focusing on one panel of a public figure, and optionally tune `position` or
+`scale` for that individual preview. For a wider
+or taller crop, set `frameAspectRatio` (width divided by height); set
+`zoomOrigin` to anchor the zoom, such as `"right bottom"`. When a paper
 is not public yet, omit `media` and set `mediaStatus` instead of using an
 unrelated image.
 

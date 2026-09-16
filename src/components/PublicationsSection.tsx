@@ -48,6 +48,7 @@ function mediaPresentation(media: PublicationMedia): {
       objectFit: fit,
       objectPosition: media.position ?? "center",
       transform: media.scale && media.scale !== 1 ? `scale(${media.scale})` : undefined,
+      transformOrigin: media.zoomOrigin ?? "center",
     },
   };
 }
@@ -134,7 +135,14 @@ function PublicationEntry({
 }) {
   return (
     <article className="publication">
-      <div className="paper-preview">
+      <div
+        className="paper-preview"
+        style={
+          publication.media?.frameAspectRatio
+            ? { aspectRatio: publication.media.frameAspectRatio }
+            : undefined
+        }
+      >
         <div className="paper-media-frame">
           <PublicationPreview publication={publication} />
         </div>
