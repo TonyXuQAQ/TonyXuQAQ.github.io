@@ -24,10 +24,9 @@ other phrases inside the prose to link to their official pages.
 Tune portrait framing without changing the source image through
 `photoPosition`, `photoScale`, and `photoRotation` under `profile`.
 
-The homepage shows the profile, news, all preprints in a dedicated Preprints
-section, and peer-reviewed publications marked with `selected: true` in Selected
-Publications. Preprints never duplicate in Selected Publications. Both homepage
-paper sections use compact spacing. The Publications page shows every entry.
+The homepage shows the profile, news, and peer-reviewed publications marked with
+`selected: true` in Selected Publications. Preprints are only shown on the
+Publications page, which retains every entry. Both pages use compact spacing.
 
 Publication resource buttons are limited to `Project`, `Paper`, `Code`,
 `Data`, and `Model`, and are always displayed in that order. Their order in

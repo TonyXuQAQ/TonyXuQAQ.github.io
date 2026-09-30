@@ -238,7 +238,7 @@ export const siteConfig = {
     },
   ],
 
-  // All preprints appear separately; selected: true highlights peer-reviewed work.
+  // Preprints appear only on the Publications page; selected highlights peer-reviewed work.
   publications: [
     {
       title: "FocusDrive: Reasoning with Visual Focus for Autonomous Driving",

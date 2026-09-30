@@ -15,12 +15,6 @@ export function HomePage() {
       <PublicationsSection
         items={siteConfig.publications}
         highlightedAuthor={siteConfig.profile.name}
-        mode="preprints"
-        compact
-      />
-      <PublicationsSection
-        items={siteConfig.publications}
-        highlightedAuthor={siteConfig.profile.name}
         mode="selected"
         compact
         scholarUrl={scholarUrl}
