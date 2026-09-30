@@ -851,10 +851,9 @@ export const siteConfig = {
       year: 2021,
       media: {
         type: "image",
-        src: "images/publications/hercules.png",
-        alt: "Hercules autonomous logistic vehicle",
-        fit: "cover",
-        position: "center 46%",
+        src: "images/publications/hercules-architecture.png",
+        alt: "Hercules system architecture: cloud servers, onboard computing, control modules, and sensor data bus",
+        fit: "contain",
       },
       links: [
         { label: "Paper", url: "https://arxiv.org/abs/2004.07480" },
