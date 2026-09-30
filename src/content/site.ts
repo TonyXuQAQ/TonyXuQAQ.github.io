@@ -238,8 +238,35 @@ export const siteConfig = {
     },
   ],
 
-  // The homepage highlights entries marked selected: true.
+  // All preprints appear separately; selected: true highlights peer-reviewed work.
   publications: [
+    {
+      title: "FocusDrive: Reasoning with Visual Focus for Autonomous Driving",
+      authors: [
+        "Zhiyuan Liu",
+        "Zehong Ke",
+        "Yuanxin Tian",
+        "Hao Cheng",
+        "Jinhao Li",
+        "Yining Xing",
+        "Yanbo Jiang",
+        "Zhenhua Xu†",
+        "Wenhao Yu†",
+        "Jianqiang Wang",
+      ],
+      authorNote: "† Corresponding author",
+      publicationType: "preprint",
+      venue: "arXiv preprint",
+      venueShort: "arXiv",
+      year: 2026,
+      media: {
+        type: "image",
+        src: "images/publications/focusdrive.png",
+        alt: "FocusDrive visual focus on a traffic light and the corresponding planned trajectory",
+        crop: { x: 245, y: 330, width: 337, height: 116, imageWidth: 620 },
+      },
+      links: [{ label: "Paper", url: "https://arxiv.org/abs/2609.33190" }],
+    },
     {
       title: "READ: Learning Risk-Informed Fields for End-to-End Autonomous Driving",
       authors: [

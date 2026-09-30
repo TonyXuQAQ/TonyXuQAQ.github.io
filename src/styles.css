@@ -730,6 +730,37 @@ video {
   font-weight: 600;
 }
 
+/* Compact homepage lists keep image width and readable type, with less whitespace. */
+.publications--compact .publication {
+  padding: 14px 0;
+  column-gap: 24px;
+  row-gap: 12px;
+}
+
+.publications--compact .publication:first-child {
+  padding-top: 2px;
+}
+
+.publications--compact .paper-preview {
+  aspect-ratio: 2 / 1;
+}
+
+.publications--compact .paper-content h3 {
+  margin: -2px 0 4px;
+  line-height: 1.3;
+}
+
+.publications--compact .paper-authors,
+.publications--compact .paper-venue {
+  margin: 2px 0;
+  line-height: 1.45;
+}
+
+.publications--compact .paper-links {
+  margin-top: 5px;
+  line-height: 1.4;
+}
+
 /* Timeline */
 
 .timeline-columns {
@@ -1060,6 +1091,11 @@ video {
 }
 
 @media (max-width: 560px) {
+  .publications--compact .section-heading-row {
+    flex-direction: column;
+    gap: 12px;
+  }
+
   .profile-grid {
     grid-template-columns: 1fr;
   }

@@ -26,7 +26,7 @@ src/content/site.ts
 
 主页采用独立页面导航，并兼容 GitHub Pages：
 
-- `#/home`：个人主题、News、Selected Publications
+- `#/home`：个人主题、News、Preprints、Selected Publications
 - `#/publications`：完整论文列表
 - `#/experience`：Education 与 Experience
 - `#/service`：Academic Service

@@ -10,7 +10,8 @@ import { ExternalLink } from "./ExternalLink";
 interface PublicationsSectionProps {
   items: Publication[];
   highlightedAuthor: string;
-  mode?: "selected" | "all";
+  mode?: "selected" | "preprints" | "all";
+  compact?: boolean;
   scholarUrl?: string;
 }
 
@@ -189,9 +190,14 @@ export function PublicationsSection({
   items,
   highlightedAuthor,
   mode = "all",
+  compact = false,
   scholarUrl,
 }: PublicationsSectionProps) {
-  const visibleItems = mode === "selected" ? items.filter((item) => item.selected) : items;
+  const visibleItems = items.filter((item) => {
+    if (mode === "preprints") return item.publicationType === "preprint";
+    if (mode === "selected") return item.selected && item.publicationType !== "preprint";
+    return true;
+  });
   const showAllPublications = mode === "selected" && items.some((item) => !item.selected);
   const preprints = visibleItems.filter((item) => item.publicationType === "preprint");
   const publications = visibleItems.filter((item) => item.publicationType !== "preprint");
@@ -221,15 +227,18 @@ export function PublicationsSection({
     );
   });
 
-  if (items.length === 0) {
+  if (visibleItems.length === 0) {
     return null;
   }
 
   return (
-    <section id="publications" className="content-section section-anchor">
+    <section
+      id={mode === "preprints" ? "preprints" : "publications"}
+      className={`content-section section-anchor${compact ? " publications--compact" : ""}`}
+    >
       <div className="section-heading-row">
         <div>
-          <h2>{mode === "selected" ? "Selected Publications" : "Publications"}</h2>
+          <h2>{mode === "preprints" ? "Preprints" : mode === "selected" ? "Selected Publications" : "Publications"}</h2>
           {authorNotes.length > 0 ? (
             <p className="publication-legend">{authorNotes.join(" · ")}</p>
           ) : null}
