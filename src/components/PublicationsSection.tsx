@@ -87,7 +87,13 @@ function PublicationPreview({ publication }: { publication: Publication }) {
     const { x, y, width, height, imageWidth } = publication.media.crop;
 
     return (
-      <div className="paper-media-crop" style={{ aspectRatio: width / height }}>
+      <div
+        className="paper-media-crop"
+        style={{
+          aspectRatio: width / height,
+          "--paper-crop-ratio": width / height,
+        } as CSSProperties}
+      >
         <img
           className="paper-media-crop-image"
           style={{

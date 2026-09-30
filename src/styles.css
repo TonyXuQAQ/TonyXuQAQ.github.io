@@ -732,7 +732,7 @@ video {
 
 /* Compact homepage lists keep image width and readable type, with less whitespace. */
 .publications--compact .publication {
-  padding: 14px 0;
+  padding: 9px 0;
   column-gap: 24px;
   row-gap: 12px;
 }
@@ -742,7 +742,16 @@ video {
 }
 
 .publications--compact .paper-preview {
-  aspect-ratio: 2 / 1;
+  height: 110px;
+  aspect-ratio: auto;
+}
+
+.publications--compact .paper-media--contain {
+  padding: 3px;
+}
+
+.publications--compact .paper-media-crop {
+  width: min(100%, calc(108px * var(--paper-crop-ratio)));
 }
 
 .publications--compact .paper-content h3 {
