@@ -12,6 +12,7 @@ export function PublicationsPage() {
         items={siteConfig.publications}
         highlightedAuthor={siteConfig.profile.name}
         mode="all"
+        compact
         scholarUrl={scholarUrl}
       />
     </div>
